@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Super Knowledge - Learn with $KNOW</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Rubik+Bubbles&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="sk-header">
+      <div class="sk-logo">
+        <h1 class="sk-logo-title">
+          Super <span class="sk-logo-highlight">Knowledge</span>
+        </h1>
+        <p class="sk-tagline">Unlimited learning for a flat monthly fee</p>
+      </div>
+      <a href="https://x.com" target="_blank" class="sk-external-link">
+        <img src="./img/btnX.png" alt="External Link" class="sk-external-btn" />
+      </a>
+      <button class="sk-connect-btn">
+        <span>CONNECT WALLET</span>
+        <div class="sk-btn-dots">
+          <span class="sk-dot"></span>
+          <span class="sk-dot"></span>
+          <span class="sk-dot"></span>
+        </div>
+      </button>
+    </header>
+
+    <main class="sk-main">
+      <section class="sk-why-section">
+        <h2 class="sk-section-title">
+          <i class="fas fa-question-circle"></i> WHY $KNOW TOKEN?
+        </h2>
+        <div class="sk-info-cards">
+          <div class="sk-info-card">
+            <div class="sk-card-icon"><i class="fas fa-coins"></i></div>
+            <h3 class="sk-card-title">LEARNING CURRENCY</h3>
+            <p class="sk-card-text">
+              Earn $KNOW by completing courses and unlock more content!
+            </p>
+          </div>
+          <div class="sk-info-card">
+            <div class="sk-card-icon"><i class="fas fa-infinity"></i></div>
+            <h3 class="sk-card-title">NO LIMITS</h3>
+            <p class="sk-card-text">
+              Your $KNOW balance grows with your knowledge - no caps!
+            </p>
+          </div>
+          <div class="sk-info-card">
+            <div class="sk-card-icon"><i class="fas fa-rocket"></i></div>
+            <h3 class="sk-card-title">EARLY REWARDS</h3>
+            <p class="sk-card-text">
+              Early adopters get bonus tokens and exclusive content!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="sk-courses-section">
+        <h2 class="sk-section-title">
+          <i class="fas fa-book-open"></i> COURSE CATALOG
+        </h2>
+        <div class="sk-course-filters">
+          <button class="sk-filter-btn active">ALL</button>
+          <button class="sk-filter-btn">DEFI</button>
+          <button class="sk-filter-btn">NFTS</button>
+          <button class="sk-filter-btn">SECURITY</button>
+          <button class="sk-filter-btn">SMART CONTRACTS</button>
+        </div>
+
+        <div class="sk-course-grid">
+          <!-- Courses will be loaded here by JavaScript -->
+        </div>
+
+        <section class="sk-progress-section">
+          <div class="sk-terminal">
+            <h2 class="sk-terminal-title">
+              <i class="fas fa-user-graduate"></i> YOUR LEARNING LEVEL
+            </h2>
+            <div class="sk-progress-container">
+              <div class="sk-progress-bar" style="width: 15%"></div>
+            </div>
+            <p class="sk-access-level">
+              STATUS: <span class="sk-highlight">NEWBIE LEARNER</span>
+            </p>
+
+            <div class="sk-level-container">
+              <div class="sk-level unlocked">
+                <div class="sk-level-icon">
+                  <i class="fas fa-book-open"></i>
+                </div>
+                <p class="sk-level-text">LEVEL 1: BASICS</p>
+              </div>
+              <div class="sk-level locked">
+                <div class="sk-level-icon">
+                  <i class="fas fa-laptop-code"></i>
+                </div>
+                <p class="sk-level-text">LEVEL 2: BUILDER</p>
+              </div>
+              <div class="sk-level locked">
+                <div class="sk-level-icon"><i class="fas fa-crown"></i></div>
+                <p class="sk-level-text">LEVEL 3: MASTER</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer class="sk-footer">
+      <p class="sk-footer-text">
+        © 2025 SUPER KNOWLEDGE | ALL KNOWLEDGE IS POWER
+      </p>
+      <div class="sk-social-links">
+        <a href="#" class="sk-social-link"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="sk-social-link"><i class="fab fa-discord"></i></a>
+        <a href="#" class="sk-social-link"><i class="fab fa-telegram"></i></a>
+      </div>
+    </footer>
+
+    <div class="sk-wallet-popup" id="skWalletPopup">
+      <div class="sk-wallet-modal">
+        <button class="sk-modal-close">&times;</button>
+        <h3 class="sk-modal-title">Connect Your Cosmic Wallet</h3>
+        <div class="sk-wallet-options">
+          <button class="sk-wallet-option">
+            <span>Phantom</span>
+          </button>
+          <button class="sk-wallet-option">
+            <span>Solflare</span>
+          </button>
+          <button class="sk-wallet-option">
+            <span>Ledger</span>
+          </button>
+        </div>
+        <p class="sk-wallet-help">
+          Don't have a wallet?
+          <a href="#" target="_blank" class="sk-wallet-link">Get one here</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="sk-unlock-popup" id="skUnlockPopup">
+      <div class="sk-unlock-modal">
+        <button class="sk-modal-close">&times;</button>
+        <div class="sk-unlock-header">
+          <i class="sk-lock-icon">🔒</i>
+          <h3 class="sk-unlock-title">Unlock Premium Content</h3>
+        </div>
+        <div class="sk-unlock-body">
+          <p class="sk-unlock-text">
+            Connect your wallet to access this exclusive content
+          </p>
+        </div>
+        <div class="sk-unlock-footer">
+          <button class="sk-unlock-action-btn">Connect Wallet</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
